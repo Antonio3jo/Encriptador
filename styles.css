@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(130, 92, 21);
+    /*background: linear-gradient(30deg, orange, grey,black);*/
+
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family:"inter" sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 32px;
+   
+}
+main{
+    display:flex;
+
+    
+}
+
+
+.texto-inicial{
+    
+    margin-top: 90px;
+}
+
+
+
+
+
+.mensaje{
+   
+    margin-top: 20px;
+    margin-left: 90px;
+    position: relative;
+    background-image: url("images/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.boton {
+    position: relative;
+    background: orange;
+    border-radius: 10px 0 10px 0;
+    margin: 10px 35%;
+    transition: 1s all;
+}
+.boton:hover{
+    background: rgb(92, 131, 29);
+    transform: scale(1.2);
+}
+
+footer{
+    background-color:rgb(130, 92, 21);
+    text-align: center;
+    padding: 20px;
+    
+    height: 40px;
+
+}
+.firma {
+    font-size: 18px;
+    color: #0b0c0c;
+    font-weight: 400;
+}

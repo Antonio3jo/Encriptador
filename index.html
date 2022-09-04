@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- este es el link pra utilizar las googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="Es el Logo Alura">
+    </header>
+    <main>
+        
+        <section class="seccionIzquierda">
+            <!-- aqui creo el text area con su ancho y alto de tipo texto y creo una clase que se usa para el boton -->
+            <textarea type="text" class="textoInicial" cols= "40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+           
+            <!-- busque en la pagina unicode para encontrar el simbolo copiado abajo -->
+            <p> &#128712 Solo letras minusculas sin acentos</p
+                >
+
+            <div class="botones">
+                <!-- los meto en una div para estilizarlos mas facil -->
+                <button class="boton" type="button" onclick= "btnencriptar()">Encriptar</button>
+                <button class="boton" type="button" onclick="btndesEncriptar()">Desencriptar</button>
+            
+            </div>
+        </section>
+        <section>
+             <!-- en una nueva seccionpara poder ponerlo al lado -->
+            
+                <textarea cols= "18" rows="8" class="mensaje"> </textarea>
+                 <!-- <img src="images/Muñeco.png"> -->
+                
+                 <!-- los meto en una div para estilizarlos mas facil -->
+                <button class="boton" onclick="copiar()">Copiar</button>
+                <!-- <button class="boton" onclick="copiar()">Copiar</button> -->
+             
+        </section>
+       
+    </main>
+    
+
+
+</body>
+
+<footer>
+   
+    <p class="firma">&copy; Antonio3jo 2022 - Buenos Aires. <br> Alura Latam</p> 
+    
+    <div >
+        <img src="images/letraA.png" width="8%" alt="" class="logoAntonio" >
+    </div>
+</footer>
+<!-- link para que reconozca el java script -->
+<script src="script.js"> </script>
+</html>
